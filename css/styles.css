@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700;1,900&family=Montserrat:wght@300&display=swap%27");
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap"); */
+#logoimg {
+  height: 40px;
+}
+
+.footer img {
+  width: 150px;
+}
+.bottompage {
+  line-height: 20px;
+}
+.bottomtext p {
+  line-height: 15px;
+}
+p {
+  text-align: justify;
+  font-weight: 400;
+}
+
+html,
+body {
+  font-size: 15px;
+  line-height: 1.5px;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+}
+
+/*-------------------- Home section start --------------------*/
+
+#mainhome h1 {
+  text-align: center;
+  margin-top: 130px;
+  font-size: 100px;
+  color: black;
+  /* font-weight: 600 !important; */
+  /* font-family: "Dancing Script", cursive; */
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+}
+
+#mainhome img {
+  text-align: left;
+  margin-bottom: 70px;
+  width: 100vw;
+}
+/*-------------------- Home section end--------------------*/
+
+/*-------------------- About us section start --------------------*/
+
+#Abtusintro h5 {
+  text-align: center;
+}
+
+#Abtusintro h2 {
+  text-align: center;
+}
+
+/*-------------------- About us section end --------------------*/
+
+/* --------------------loan section start---------------------- */
+#Loansintro h5 {
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+#Loansintro h2 {
+  text-align: center;
+  font-weight: 300;
+  color: black;
+}
+
+#loansimg1 {
+  height: 80%;
+  width: 80%;
+  margin-left: 40px;
+}
+
+#line {
+  width: 100vw;
+  height: 200vh;
+  background-image: linear-gradient(120deg, #fff, #02656c);
+  margin-top: 90px;
+  margin-bottom: 50px;
+  /* background-color: #02656C; */
+}
+#businessloan {
+  margin-top: 100px;
+}
+#line img {
+  margin-top: 10px;
+  width: 70%;
+  height: 65%;
+  margin-left: 60px;
+}
+#line h5,
+p {
+  color: black;
+  font-size: large;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#line h5 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn {
+  margin-left: 100px;
+}
+
+/* --------------------loan section end---------------------- */
+
+/* --------------------Contact section start ---------------------- */
+#contactform {
+  margin-left: 60px;
+  margin-top: 50px;
+  color: black;
+}
+#contactbtn {
+  margin-left: 140px;
+  margin-bottom: 150px;
+}
+#radiobtns {
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#contactform h1 {
+  margin-left: -10px;
+  color: black;
+}
+
+/* --------------------Contact section end----------------------
+
+/* --------------------Calculator section start ---------------------- */
+.calc-heading {
+  text-align: center;
+  margin-top: 30px;
+}
+.calc-p {
+  text-align: center;
+  font-size: large;
+}
+
+/* .calculatorimage1 {
+  display: flex;
+  justify-content: center;
+  background-color: black !important;
+} */
+
+#calculatorcards {
+  height: 300px;
+  margin-top: 35px;
+}
+
+#loansummary h6 {
+  margin-top: 30px;
+}
+
+/* --------------------Calclator section End---------------------- */
+
+/* --------------------login section start---------------------- */
+
+.btn-primary {
+  background-color: #02656c !important;
+}
+/* --------------------login section end---------------------- */
+
+a {
+  text-decoration: none;
+  /* color: rgba(34, 54, 68, 0.8); */
+  /* margin-right: 70px; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  background: white;
+  padding: 0rem;
+  min-height: 12vh;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+.navbar .navbar-brand {
+  /* padding: 1rem; */
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* color: #03045e; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 1.5rem;
+}
+
+/* toggle button */
+#toggleswitch {
+  /* padding: 10px 6px; */
+  outline: none;
+  border-radius: 10px;
+  margin-left: 240px;
+  color: #02656c;
+}
+/* toggle button end*/
+.navbar-expand-lg .navbar-nav .nav-link {
+  /* position: relative; */
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #02656c;
+
+  /* text-transform: uppercase; */
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  border-top: 4px solid #02656c;
+  color: black;
+}
+.navbar-nav a.active {
+  border-top: 4px solid #02656c;
+  color: black;
+}
+
+.navbar-nav .btn {
+  /* padding: 0.5rem 1rem; */
+  color: #02656c;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.navbar-nav .btn:hover {
+  background-color: #02656c;
+  color: white;
+}
+
+.slider-btn .btn {
+  background-color: #03045e;
+  color: white;
+  border-radius: 0;
+  /* padding: 1.5rem 2rem; */
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.slider-btn .btn-2 {
+  color: black;
+  background-color: white;
+}
+.slider-btn .btn-1 {
+  color: black;
+  background-color: white;
+}
+h5 {
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #02656c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#newscards {
+  background-image: linear-gradient(grey, #fff);
+  /* background-image: linear-gradient(#45939a, #fff); */
+}
+
+/* --------------------Responsiveness section start---------------------- */
+@media (min-width: 1000px) {
+  /* contactform   */
+
+  #contactform {
+    margin-left: 250px;
+    margin-top: 25px;
+    color: black;
+  }
+  #contactbtn {
+    margin-left: 580px;
+    margin-bottom: 25px;
+  }
+  #radiobtns {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #contactform h1 {
+    margin-left: 190px;
+    color: black;
+  }
+
+  #mainhome h1 {
+    text-align: center;
+    margin-top: 130px;
+    font-size: 100px;
+    color: black;
+    /* font-weight: 600 !important; */
+    /* font-family: "Dancing Script", cursive; */
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+  }
+
+  #mainhome img {
+    height: 400px;
+    width: 500px;
+    margin-bottom: 80px;
+  }
+
+  /* Loans Start */
+
+  #Loansintro h5 {
+    margin-top: 30%;
+    font-size: 80px;
+  }
+  #Loansintro h2 {
+    margin-top: -120px;
+    font-size: 30px;
+  }
+
+  #loansimg1 {
+    height: 34.5rem;
+    width: 34.5rem;
+    margin-left: 100px;
+    border-radius: 50%;
+    outline: 2px solid #02656c;
+  }
+
+  #line {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(120deg, #fff, #02656c);
+    margin-top: 90px;
+    margin-bottom: 50px;
+    /* background-color: #02656C; */
+  }
+  #line img {
+    margin-top: 20px;
+    width: 70%;
+    height: 65%;
+  }
+  #businessloan {
+    margin-top: -20px;
+  }
+  #line h5,
+  p {
+    color: black;
+    font-size: large;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  #line h5 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .btn {
+    margin-left: 250px;
+  }
+
+  /* navbar toggeler */
+  /* toggle button */
+  #toggleswitch {
+    /* padding: 10px 6px; */
+    outline: none;
+    border-radius: 10px;
+  }
+  /* toggle button end*/
+  .navbar-expand-lg .navbar-nav .nav-link {
+    /* position: relative; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #02656c;
+
+    /* text-transform: uppercase; */
+  }
+  /* --------------------Responsiveness section end---------------------- */
+}
