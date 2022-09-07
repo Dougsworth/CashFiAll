@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700;1,900&family=Montserrat:wght@300&display=swap%27");
-/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&display=swap");
 #logoimg {
   height: 40px;
 }
@@ -20,6 +19,7 @@ p {
 
 html,
 body {
+  font-family: "Dosis", sans-serif;
   font-size: 15px;
   line-height: 1.5px;
   box-sizing: border-box;
@@ -34,21 +34,63 @@ body {
 
 #mainhome h1 {
   text-align: center;
-  margin-top: 130px;
-  font-size: 100px;
-  color: black;
-  /* font-weight: 600 !important; */
-  /* font-family: "Dancing Script", cursive; */
-  font-family: "Lato", sans-serif;
+  margin-top: 50px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #02656c;
+
   font-weight: 900;
-  font-size: 72px;
+  font-size: 50px;
+}
+#mainhome p {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #mainhome img {
-  text-align: left;
+  margin-top: 20px;
   margin-bottom: 70px;
-  width: 100vw;
+  width: 320px;
 }
+
+#mainhomebtn {
+  background-color: #02656c;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-left: 110px;
+}
+
+#mainhomebtn:hover {
+  background-color: #003a41;
+  color: white;
+}
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+/* ________________________________________________________________ */
+
+/* ________________________________________________________________ */
 /*-------------------- Home section end--------------------*/
 
 /*-------------------- About us section start --------------------*/
@@ -73,7 +115,7 @@ body {
 }
 #Loansintro h2 {
   text-align: center;
-  font-weight: 300;
+  font-weight: 200;
   color: black;
 }
 
@@ -141,21 +183,21 @@ p {
 
 /* --------------------Contact section end----------------------
 
-/* --------------------Calculator section start ---------------------- */
+  /* --------------------Calculator section start ---------------------- */
 .calc-heading {
   text-align: center;
   margin-top: 30px;
 }
 .calc-p {
   text-align: center;
-  font-size: large;
+  font-size: medium;
 }
 
 /* .calculatorimage1 {
-  display: flex;
-  justify-content: center;
-  background-color: black !important;
-} */
+    display: flex;
+    justify-content: center;
+    background-color: black !important;
+  } */
 
 #calculatorcards {
   height: 300px;
@@ -289,7 +331,7 @@ h6 {
 
 #newscards {
   background-image: linear-gradient(grey, #fff);
-  border-radius: 10px;
+  border-radius: 20px;
   /* background-image: linear-gradient(#45939a, #fff); */
 }
 
@@ -318,12 +360,15 @@ h6 {
 
   #mainhome h1 {
     text-align: center;
-    margin-top: 130px;
+    margin-top: 65px;
     font-size: 100px;
-    color: black;
+    margin-bottom: 25px;
+    color: white;
     /* font-weight: 600 !important; */
     /* font-family: "Dancing Script", cursive; */
-    font-family: "Lato", sans-serif;
+    font-family: "Dosis", sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #02656c;
     font-weight: 900;
     font-size: 72px;
   }
@@ -334,6 +379,23 @@ h6 {
     margin-bottom: 80px;
   }
 
+  #mainhome p {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  #mainhomebtn {
+    background-color: #02656c;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 230px;
+  }
+  #mainhomebtn:hover {
+    background-color: #003a41;
+    color: white;
+  }
   /* Loans Start */
 
   #Loansintro h5 {
@@ -402,5 +464,27 @@ h6 {
 
     /* text-transform: uppercase; */
   }
+
+  .floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+
+  @keyframes floating {
+    from {
+      transform: translate(0, 0px);
+    }
+    65% {
+      transform: translate(0, 15px);
+    }
+    to {
+      transform: translate(0, -0px);
+    }
+  }
+
   /* --------------------Responsiveness section end---------------------- */
 }
